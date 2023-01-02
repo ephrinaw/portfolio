@@ -6,7 +6,7 @@ export const projects = [
     title: "Food App",
     description:
       "This is a food ordering application made up of React components that will let the user to order food and their detail will be available in firebase database.",
-    image: "/images/food-app.png",
+    image: "/images/food-app.jpg",
     tags: ["React", "Firebase"],
     source: "https://github.com/ephrinaw/food_app",
     visit: "https://www.youtube.com/watch?v=ZcvyZGVJ46c",
@@ -29,7 +29,7 @@ export const projects = [
     image: "/images/react-hooks-demo.png",
     tags: ["React", "JavaScript", "Firebase"],
     source: "https://github.com/ephrinaw/react-hook-review",
-    visit: "https://google.com",
+    visit: "https://www.youtube.com/watch?v=NdGiJmKn4pI",
     id: 2,
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
     description:
       "Using React, Firebase  we managed to build a simple Application - The app allows users to store their expenses  by day and they can view it as a yearly summary.",
     image: "/images/expense-demo.png",
-    tags: ["React", "Firebade", "Css"],
+    tags: ["React", "Firebase", "Css"],
     source: "https://github.com/ephrinaw/expense-demo",
     visit: "https://ephrinaw.github.io/expense-demo/",
     id: 3,
