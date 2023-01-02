@@ -1,46 +1,65 @@
 export const projects = [
+  
+  
+  
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Food App",
+    description:
+      "This is a food ordering application made up of React components that will let the user to order food and their detail will be available in firebase database.",
+    image: "/images/food-app.png",
+    tags: ["React", "Firebase"],
+    source: "https://github.com/ephrinaw/food_app",
+    visit: "https://www.youtube.com/watch?v=ZcvyZGVJ46c",
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "NextJs Meetup Registration App",
+    description:
+      "This is a NextJs meetup registration application made up of NextJs and React components that will let the user to arrange meetup places.In the background there is MongoDb.",
+    image: "/images/next-demo.png",
+    tags: [ "NextJs","React","MongoDB"],
+    source: "https://github.com/ephrinaw/next-demo",
+    visit: "https://next-demo-ephrinaw.vercel.app/",
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Cooking Ingredient application",
+    description:
+      "This is an application that summeraizes the most commonly used react hooks as I revised my studies.",
+    image: "/images/react-hooks-demo.png",
+    tags: ["React", "JavaScript", "Firebase"],
+    source: "https://github.com/ephrinaw/react-hook-review",
+    visit: "https://google.com",
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "React Expenses",
+    description:
+      "Using React, Firebase  we managed to build a simple Application - The app allows users to store their expenses  by day and they can view it as a yearly summary.",
+    image: "/images/expense-demo.png",
+    tags: ["React", "Firebade", "Css"],
+    source: "https://github.com/ephrinaw/expense-demo",
+    visit: "https://ephrinaw.github.io/expense-demo/",
     id: 3,
   },
+
+  {
+    title: "Fetching from API demo",
+    description:
+      "Upon building this demo app I have learned how to fetch data from the API and display them.",
+    image: "/images/fetch-demo.png",
+    tags: ["React", "JavaScript", "Firebase"],
+    source: "https://google.com",
+    visit: "https://www.youtube.com/watch?v=yZevs6uZ3QE",
+    id: 4,
+  },
+
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
 ];

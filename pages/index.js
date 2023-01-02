@@ -1,4 +1,4 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
+import Contact from '../components/Contact/Contact';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import About from '../components/About/About';
 import Projects from '../components/Projects/Projects';
@@ -15,7 +15,7 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
-      <Acomplishments />
+      <Contact />
     </Layout>
   );
 };

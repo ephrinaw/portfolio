@@ -1,7 +1,11 @@
-import React from 'react';
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import React from "react";
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { LeftSection } from "./HeroStyles";
+import ReadMoreButton from "./ReadMoreButton";
 
 const About = (props) => (
   <>
@@ -12,9 +16,14 @@ const About = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          I have a strong understanding of the Unix, Linux, and Windows
+          operating systems and have experience using each of them in various
+          environments. I am proficient in frontend development using React and
+          Nextjs, which allows me to create interactive and user-friendly web
+          applications. In addition to my frontend skills,
+        
+          <ReadMoreButton></ReadMoreButton>
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
   </>
