@@ -26,7 +26,7 @@ export const projects = [
     title: "Cooking Ingredient application",
     description:
       "This is an application that summeraizes the most commonly used react hooks as I revised my studies.",
-    image: "/react-hooks-demo.png" ,
+    image: "/hooks.png" ,
     tags: ["React", "JavaScript", "Firebase"],
     source: "https://github.com/ephrinaw/react-hook-review",
     visit: "https://www.youtube.com/watch?v=NdGiJmKn4pI",
@@ -49,7 +49,7 @@ export const projects = [
       "Upon building this demo app I have learned how to fetch data from the API and display them.",
     image: "/fetch-demo.png",
     tags: ["React", "JavaScript", "Firebase"],
-    source: "https://google.com",
+    source: "https://github.com/ephrinaw/fetch-from-api",
     visit: "https://www.youtube.com/watch?v=yZevs6uZ3QE",
     id: 4,
   },
