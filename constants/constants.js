@@ -6,7 +6,7 @@ export const projects = [
     title: "Food App",
     description:
       "This is a food ordering application made up of React components that will let the user to order food and their detail will be available in firebase database.",
-    image: "/images/food-app.jpg",
+    image: "/next.svg",
     tags: ["React", "Firebase"],
     source: "https://github.com/ephrinaw/food_app",
     visit: "https://www.youtube.com/watch?v=ZcvyZGVJ46c",
@@ -26,7 +26,7 @@ export const projects = [
     title: "Cooking Ingredient application",
     description:
       "This is an application that summeraizes the most commonly used react hooks as I revised my studies.",
-    image: "/images/react-hooks-demo.png",
+    image: "/images/react-hooks-demo.png" ,
     tags: ["React", "JavaScript", "Firebase"],
     source: "https://github.com/ephrinaw/react-hook-review",
     visit: "https://www.youtube.com/watch?v=NdGiJmKn4pI",
